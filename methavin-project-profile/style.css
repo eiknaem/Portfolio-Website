@@ -1,0 +1,126 @@
+/*
+    Name Methavin Ukrisussadon ID:1630903555
+/*
+/*==============================================*/
+/* Class of Body */
+.body{
+    margin: auto;
+    margin-top: 20px;
+    padding: 24px 48px;
+    width: 80%;
+    border-color:rgb(255, 125, 85);
+    border-style:groove;
+    border-radius: 8px 8px;
+    background: rgb(255, 219, 198);
+    background: -moz-linear-gradient(top,  rgba(254,255,255,1) 0%, rgba(210,235,249,1) 100%); 
+    box-shadow: 0px 0px 10px 5px rgba(200, 197, 200, 1);
+}
+/*==============================================*/
+/* Class of portfolio เปลี่ยนสี,ขนาดfont,เปลี่ยนfont */ 
+.portfolio{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(240, 45, 71);
+}
+/*==============================================*/
+/* Font Color เปลี่ยนสีfontเวลาแตะที่ตัวอักษร,เพิ่มระยะห่าง */
+.a:hover{
+    width: 20%;
+    color:rgb(255, 196, 0);
+}
+/*==============================================*/
+/* Delete underline */
+.a{
+    text-decoration: none;  
+}
+/*==============================================*/
+/* สร้างตาราง */
+.table, .td, .th {
+    border: 1px solid rgb(255, 237, 76);
+    border-style:groove;
+  }
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  .th, .td {
+    height: 80px;
+    padding: 3px;
+  }
+  .th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+  .td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+/*==============================================*/
+/* Class of picture เปลี่ยนสี,ขนาดfont,เปลี่ยนfont */
+.pic{
+    width: 20%;
+    padding-left: 40%;
+}
+/*==============================================*/
+/* Class of about me เปลี่ยนสี,ขนาดfont,เปลี่ยนfont */
+.about{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ff8888;
+}
+/*==============================================*/
+/* Class of data  เปลี่ยนสี,ขนาดfont,เปลี่ยนfont */
+.data{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+/*==============================================*/
+/* CSS Button Decorate */
+.myButton {
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*==============================================*/
+/* Color FontHTML Decorate  */
+#name{
+  font-weight: bold;
+  color: #e4685d;
+}
+#id{
+  font-weight: bold;
+  color: #e4685d;
+}
+#study{
+  font-weight: bold;
+  color: #e4685d;
+}
+#major{
+  font-weight: bold;
+  color: #e4685d;
+}
+#hobby{
+  font-weight: bold;
+  color: #e4685d;
+}
+/*==============================================*/

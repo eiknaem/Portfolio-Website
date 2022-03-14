@@ -1,0 +1,56 @@
+<!--Name Methavin Ukrisussadon ID:1630903555-->    
+<!--หน้าข้อมูลโปรไฟล์-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--ใช้ดึงข้อมูล function css,js-->
+    <script src="/js_data.js"></script>
+    <!--Add Favicon Icon => https://www.favicon.cc/-->
+    <link rel="icon" href="meankie.ico">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="body">
+    <!--เรียกใช้ style.css-->  
+    <h1 class="portfolio">Portfolio</h1>
+    <table class="table">
+        <thead>
+          <tr>
+            <th class="th"><a href="index.html" class="a">Profile</a></th>
+            <th class="th"><a href="Experiences.html" class="a">Experiences</a></th>
+            <th class="th"><a href="Abilities.html" class="a">Abilities</a></th>
+            <th class="th"><a href="Project.html" class="a">Project</a></th>
+            <th class="th"><a href="Contact.html" class="a">Contact</a></th>
+          </tr>
+        </thead> 
+    </table>
+    <!--สร้าง Class ไว้สำหรับเรียกใช้ function-->
+    <h1 class="about">About me.</h1>
+    <img src="picture.jpg" class="pic" alt="methavin">
+    <div class="data">
+        <p>
+           <span style="font-weight: bold;">Name:</span> <button onclick="myname()" class="myButton">Click Show Name</button>
+           <p id="name"></p>
+        </p>
+        <p>
+           <span style="font-weight: bold;">ID:</span> <button onclick="myid()" class="myButton">Click Show ID</button>
+           <p id="id"></p>
+        </p>
+        <p>
+           <span style="font-weight: bold;">Study:</span> <button onclick="mystudy()" class="myButton">Click Show Study</button>
+           <p id="study"></p>
+        </p>
+        <p>
+            <span style="font-weight: bold;">Major:</span> <button onclick="mymajor()" class="myButton">Click Show Major</button>
+            <p id="major"></p>
+        </p>
+        <p>
+            <span style="font-weight: bold;">Hobby:</span> <button onclick="myhobby()" class="myButton">Click Show Hobby</button>
+            <p id="hobby"></p>
+        </p>
+    </div>
+</body>
+</html>
